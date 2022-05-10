@@ -2,9 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/listLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/listLayout"
     tools:context=".fragments.list.ListFragment">
 
 
@@ -25,8 +25,8 @@
         android:layout_marginBottom="24dp"
         android:clickable="true"
         android:focusable="true"
-        android:tint="@color/white"
         android:src="@drawable/ic_add"
+        android:tint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -34,9 +34,9 @@
         android:id="@+id/noTodoImageView"
         android:layout_width="135dp"
         android:layout_height="133dp"
+        android:alpha="0.5"
         android:src="@drawable/ic_no_todo"
         android:visibility="invisible"
-        android:alpha="0.5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/recyclerView"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,11 +46,11 @@
         android:id="@+id/noTodoTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="invisible"
         android:layout_marginTop="16dp"
-        android:textSize="16sp"
         android:alpha="0.5"
         android:text="@string/no_to_do_text"
+        android:textSize="16sp"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="@+id/recyclerView"
         app:layout_constraintStart_toStartOf="@+id/recyclerView"
         app:layout_constraintTop_toBottomOf="@+id/noTodoImageView" />

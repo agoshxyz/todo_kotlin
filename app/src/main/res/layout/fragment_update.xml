@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="24dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.update.UpdateFragment">
 
     <EditText
         android:id="@+id/updateNameTodo"
         android:layout_width="0dp"
         android:layout_height="64dp"
+        android:background="@drawable/custom_bg_input"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="@string/nameTodo"
+        android:inputType="textPersonName"
         android:paddingStart="24dp"
         android:paddingEnd="24dp"
-        android:background="@drawable/custom_bg_input"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,32 +27,46 @@
         android:layout_width="0dp"
         android:layout_height="64dp"
         android:layout_marginTop="8dp"
+        android:background="@drawable/custom_bg_input"
         android:entries="@array/typeTodo"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
-        android:background="@drawable/custom_bg_input"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/updateNameTodo" />
+
+    <Spinner
+        android:id="@+id/updateStatusTodo"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/custom_bg_input"
+        android:entries="@array/statusTodo"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateTypeTodo" />
 
     <EditText
         android:id="@+id/updateDescriptionTodo"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
-        android:ems="10"
-        android:inputType="textMultiLine"
-        android:hint="@string/descriptionTodo"
-        android:paddingStart="24dp"
-        android:paddingEnd="24dp"
-        android:paddingTop="16dp"
-        android:gravity="top|start"
         android:background="@drawable/custom_bg_input"
+        android:ems="10"
+        android:gravity="top|start"
+        android:hint="@string/descriptionTodo"
+        android:inputType="textMultiLine"
+        android:paddingStart="24dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/updateTypeTodo" />
+        app:layout_constraintTop_toBottomOf="@+id/updateStatusTodo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,9 +5,20 @@
     <string name="no_to_do_text">No To Do For the moment</string>
     <string name="nameTodo">Name</string>
     <string name="descriptionTodo">Description</string>
+    <string name="searchMenu">Search</string>
+    <string name="sortByMenu">Sort By</string>
+    <string name="optionTodo">Todo</string>
+    <string name="optionDone">Done</string>
+    <string name="addMenu">Add</string>
     <string-array name="typeTodo">
         <item>Personal</item>
         <item>Work</item>
         <item>School</item>
+    </string-array>
+
+    <string-array name="statusTodo">
+        <item>To Do</item>
+        <item>In progress</item>
+        <item>Done</item>
     </string-array>
 </resources>
