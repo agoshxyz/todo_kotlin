@@ -29,7 +29,7 @@ class ListFragment : Fragment() {
         view.listLayout.setOnClickListener { findNavController().navigate(R.id.action_listFragment_to_updateFragment) }
 
 
-        //Menu items
+        // Setting menu items
         setHasOptionsMenu(true)
 
         return view

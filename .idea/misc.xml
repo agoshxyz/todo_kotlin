@@ -6,7 +6,10 @@
         <entry key="app/src/main/res/drawable/custom_bg_input.xml" value="0.3536458333333333" />
         <entry key="app/src/main/res/drawable/green_bg_input.xml" value="0.3536458333333333" />
         <entry key="app/src/main/res/drawable/ic_add.xml" value="0.3536458333333333" />
+        <entry key="app/src/main/res/drawable/ic_add_task.xml" value="0.3536458333333333" />
+        <entry key="app/src/main/res/drawable/ic_delete.xml" value="0.3536458333333333" />
         <entry key="app/src/main/res/drawable/ic_no_todo.xml" value="0.3536458333333333" />
+        <entry key="app/src/main/res/drawable/ic_save.xml" value="0.3536458333333333" />
         <entry key="app/src/main/res/drawable/ic_search.xml" value="0.3536458333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3038458389552591" />
         <entry key="app/src/main/res/layout/fragment_add.xml" value="0.33" />
@@ -14,6 +17,7 @@
         <entry key="app/src/main/res/layout/fragment_update.xml" value="0.17701863354037267" />
         <entry key="app/src/main/res/menu/add_fragment_menu.xml" value="0.3375" />
         <entry key="app/src/main/res/menu/list_fragment_menu.xml" value="0.3275862068965517" />
+        <entry key="app/src/main/res/menu/update_fragment_menu.xml" value="0.3375" />
       </map>
     </option>
   </component>

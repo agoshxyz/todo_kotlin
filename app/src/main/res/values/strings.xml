@@ -10,6 +10,8 @@
     <string name="optionTodo">Todo</string>
     <string name="optionDone">Done</string>
     <string name="addMenu">Add</string>
+    <string name="updateMenu">Update</string>
+    <string name="deleteMenu">Delete</string>
     <string-array name="typeTodo">
         <item>Personal</item>
         <item>Work</item>
