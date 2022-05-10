@@ -11,6 +11,8 @@
 
     <!-- Personal Colors -->
     <color name="white">#FFFFFFFF</color>
+    <color name="green_bg_input">#3DDB85</color>
+    <color name="lightGrey_bg_input">#E6E6E6</color>
 
 
 
