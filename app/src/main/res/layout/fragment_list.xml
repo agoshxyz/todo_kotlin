@@ -36,11 +36,13 @@
         android:layout_height="133dp"
         android:alpha="0.5"
         android:src="@drawable/ic_no_todo"
-        android:visibility="invisible"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/recyclerView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/recyclerView" />
+
+<!--    android:visibility="invisible"-->
 
     <TextView
         android:id="@+id/noTodoTextView"
@@ -50,8 +52,9 @@
         android:alpha="0.5"
         android:text="@string/no_to_do_text"
         android:textSize="16sp"
-        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="@+id/recyclerView"
         app:layout_constraintStart_toStartOf="@+id/recyclerView"
         app:layout_constraintTop_toBottomOf="@+id/noTodoImageView" />
+
+<!--    android:visibility="invisible"-->
 </androidx.constraintlayout.widget.ConstraintLayout>

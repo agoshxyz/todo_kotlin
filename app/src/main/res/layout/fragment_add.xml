@@ -32,24 +32,25 @@
         android:entries="@array/typeTodo"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
+        app:layout_constraintVertical_weight="@integer/material_motion_duration_medium_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameTodo" />
 
-    <Spinner
-        android:id="@+id/statusTodo"
-        android:layout_width="0dp"
-        android:layout_height="64dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/custom_bg_input"
-        android:entries="@array/statusTodo"
-        android:paddingStart="20dp"
-        android:paddingEnd="20dp"
+
+    <Button
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lightGrey_bg_input"
+        android:text="Select a Date"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/typeTodo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/typeTodo" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/descriptionTodo"
@@ -68,5 +69,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/statusTodo" />
+        app:layout_constraintTop_toBottomOf="@+id/typeTodo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
