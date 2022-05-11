@@ -1,6 +1,7 @@
 package xyz.agosh.todo.database
 
 import androidx.room.TypeConverter
+import xyz.agosh.todo.database.models.Type
 
 class Converter {
 

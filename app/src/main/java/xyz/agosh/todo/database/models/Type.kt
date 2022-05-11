@@ -1,4 +1,4 @@
-package xyz.agosh.todo.database
+package xyz.agosh.todo.database.models
 
 enum class Type {
     Personal,

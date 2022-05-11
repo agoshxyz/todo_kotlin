@@ -1,8 +1,8 @@
-package xyz.agosh.todo.database
+package xyz.agosh.todo.database.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import java.sql.Date
+import xyz.agosh.todo.database.models.Type
 
 @Entity(tableName = "todo_table")
 data class TodoData(
